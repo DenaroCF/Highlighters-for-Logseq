@@ -3,7 +3,7 @@ Add more colors for highlight in Logseq **using slash commands**
 
 ## Example:
 
-![Image](imgs/Highlighters photo.png)
+![Example photo](imgs/Highlighters photo.png)
 
 ## Commands:
 
