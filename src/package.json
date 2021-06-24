@@ -1,0 +1,11 @@
+{
+  "name": "Highlighters",
+  "author": "Denaro",
+  "version": "0.0.1",
+  "description": "More colors for Highlight",
+  "main": "./index.html",
+  "logseq": {
+    "id": "denaro_cf_highlighters",
+    "icon": "./Highlighter.png"
+  }
+}
