@@ -1,4 +1,9 @@
 # Highlighters for Logseq Plugin
-More highlight colors in Logseq
+Add more colors for highlight in Logseq **using slash commands**
 
-![imgs/Highlighters photo.png]
+## Example:
+![Image](imgs/Highlighters photo.png)
+
+## Commands:
+
+![Slash Gif](imgs/Highlighters.gif)
