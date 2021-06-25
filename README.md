@@ -1,7 +1,7 @@
 # Highlighters for Logseq Plugin
 Add more colors for highlight in Logseq **using slash commands**
 
-**_You can find how to install the theme at the end of the text._**
+**_You can find how to install the plugin at the end of the text._**
 
 ## Example:
 
