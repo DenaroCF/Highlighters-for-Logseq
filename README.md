@@ -15,10 +15,20 @@ Add more colors for highlight in Logseq **using slash commands**
 --mark-orange: #xxxxx;
 --mark-purple: #xxxxx;
 
+/*Decoration color*/
+--mark-decoration-yellow: ;
+--mark-decoration-pink: ;
+--mark-decoration-blue: ;
+--mark-decoration-green: ;
+--mark-decoration-red: ;
+--mark-decoration-grey: ;
+--mark-decoration-orange: ;
+--mark-decoration-purple: ;
+
 /* OPTIONS */
 --mark-text-color: ;
---mark-thickness: ;
 --mark-decoration: ;
+--mark-thickness: ;
 --mark-border-radius: ;
 ```
 
