@@ -1,6 +1,8 @@
 function main () {
   logseq.provideStyle(`
 
+.dark-theme,
+html[data-theme=dark] {
       --mark-yellow: #fff3a3;
       --mark-pink: #f2b3cf;
       --mark-blue: #b5d3ff;
@@ -9,6 +11,19 @@ function main () {
       --mark-grey: #cacfd9;
       --mark-orange: #ffb86c;
       --mark-purple: #d2b3ff;
+}
+
+.white-theme,
+html[data-theme=light] {
+      --mark-yellow: #fff3a3;
+      --mark-pink: #f2b3cf;
+      --mark-blue: #b5d3ff;
+      --mark-green: #bbfabb;
+      --mark-red: #fc4e4e;
+      --mark-grey: #cacfd9;
+      --mark-orange: #ffb86c;
+      --mark-purple: #d2b3ff;
+}
 
       mark.yellow{ background-color: var(--mark-yellow);}
       mark.pink{ background-color: var(--mark-pink);}
