@@ -1,14 +1,23 @@
 function main () {
   logseq.provideStyle(`
 
-      mark.yellow{ background-color: #fff3a3;}
-      mark.pink{ background-color: #f2b3cf;}
-      mark.blue{ background-color: #b5d3ff;}
-      mark.green{ background-color: #bbfabb;}
-      mark.red{ background-color: #fc4e4e;}
-      mark.grey, mark.gray{ background-color: #cacfd9;}
-      mark.orange{ background-color: #ffb86c;}
-      mark.purple{ background-color: #d2b3ff;}
+      --mark-yellow: #fff3a3;
+      --mark-pink: #f2b3cf;
+      --mark-blue: #b5d3ff;
+      --mark-green: #bbfabb;
+      --mark-red: #fc4e4e;
+      --mark-grey: #cacfd9;
+      --mark-orange: #ffb86c;
+      --mark-purple: #d2b3ff;
+
+      mark.yellow{ background-color: var(--mark-yellow);}
+      mark.pink{ background-color: var(--mark-pink);}
+      mark.blue{ background-color: var(--mark-blue);}
+      mark.green{ background-color: var(--mark-green);}
+      mark.red{ background-color: var(--mark-red);}
+      mark.grey, mark.gray{ background-color: var(--mark-grey);}
+      mark.orange{ background-color: var(--mark-orange);}
+      mark.purple{ background-color: var(--mark-purple);}
   `)
 
   logseq.Editor.registerSlashCommand("Yellow Highlighter", [
