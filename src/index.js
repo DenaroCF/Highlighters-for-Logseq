@@ -2,37 +2,112 @@ function main () {
   logseq.provideStyle(`
 
 .dark-theme,
-html[data-theme=dark] {
-      --mark-yellow: #fff3a3;
-      --mark-pink: #f2b3cf;
-      --mark-blue: #b5d3ff;
-      --mark-green: #bbfabb;
-      --mark-red: #fc4e4e;
-      --mark-grey: #cacfd9;
-      --mark-orange: #ffb86c;
-      --mark-purple: #d2b3ff;
+html[data-theme=dark] {  
+	--mark-yellow: #fff3a3;
+	--mark-pink: #f2b3cf;
+	--mark-blue: #b5d3ff;
+	--mark-green: #bbfabb;
+	--mark-red: #fc4e4e;
+	--mark-grey: #cacfd9;
+	--mark-orange: #ffb86c;
+	--mark-purple: #d2b3ff;
+
+	--mark-text-color: ;
+	--mark-thickness: ;
+	--mark-decoration: ;
+	--mark-border-radius: ;
 }
 
 .white-theme,
 html[data-theme=light] {
-      --mark-yellow: #fff3a3;
-      --mark-pink: #f2b3cf;
-      --mark-blue: #b5d3ff;
-      --mark-green: #bbfabb;
-      --mark-red: #fc4e4e;
-      --mark-grey: #cacfd9;
-      --mark-orange: #ffb86c;
-      --mark-purple: #d2b3ff;
+	--mark-yellow: #fff3a3;
+	--mark-pink: #f2b3cf;
+	--mark-blue: #b5d3ff;
+	--mark-green: #bbfabb;
+	--mark-red: #fc4e4e;
+	--mark-grey: #cacfd9;
+	--mark-orange: #ffb86c;
+	--mark-purple: #d2b3ff;
+
+	--mark-text-color: ;
+	--mark-thickness: ;
+	--mark-decoration: ;
+	--mark-border-radius: ;
 }
 
-      mark.yellow{ background-color: var(--mark-yellow);}
-      mark.pink{ background-color: var(--mark-pink);}
-      mark.blue{ background-color: var(--mark-blue);}
-      mark.green{ background-color: var(--mark-green);}
-      mark.red{ background-color: var(--mark-red);}
-      mark.grey, mark.gray{ background-color: var(--mark-grey);}
-      mark.orange{ background-color: var(--mark-orange);}
-      mark.purple{ background-color: var(--mark-purple);}
+      mark.yellow{
+	background-color: var(--mark-yellow);
+	color: var(--highlight-text-color);
+	text-decoration: var(--mark-decoration);
+	text-decoration-color: var(--mark-decoration-color);
+	text-decoration-thickness:  var(--mark-thickness);
+	text-decoration-skip-ink: none;
+	border-radius: var(--mark-border-radius);
+}
+      mark.pink{
+	background-color: var(--mark-pink);
+	color: var(--highlight-text-color);
+	text-decoration: var(--mark-decoration);
+	text-decoration-color: var(--mark-decoration-color);
+	text-decoration-thickness:  var(--mark-thickness);
+	text-decoration-skip-ink: none;
+	border-radius: var(--mark-border-radius);
+}
+      mark.blue{
+	background-color: var(--mark-blue);
+	color: var(--highlight-text-color);
+	text-decoration: var(--mark-decoration);
+	text-decoration-color: var(--mark-decoration-color);
+	text-decoration-thickness:  var(--mark-thickness);
+	text-decoration-skip-ink: none;
+	border-radius: var(--mark-border-radius);
+}
+      mark.green{
+	background-color: var(--mark-green);
+	color: var(--highlight-text-color);
+	text-decoration: var(--mark-decoration);
+	text-decoration-color: var(--mark-decoration-color);
+	text-decoration-thickness:  var(--mark-thickness);
+	text-decoration-skip-ink: none;
+	border-radius: var(--mark-border-radius);
+}
+      mark.red{
+	background-color: var(--mark-red);
+	color: var(--highlight-text-color);
+	text-decoration: var(--mark-decoration);
+	text-decoration-color: var(--mark-decoration-color);
+	text-decoration-thickness:  var(--mark-thickness);
+	text-decoration-skip-ink: none;
+	border-radius: var(--mark-border-radius);
+}
+      mark.grey, mark.gray{
+	background-color: var(--mark-grey);
+	color: var(--highlight-text-color);
+	text-decoration: var(--mark-decoration);
+	text-decoration-color: var(--mark-decoration-color);
+	text-decoration-thickness:  var(--mark-thickness);
+	text-decoration-skip-ink: none;
+	border-radius: var(--mark-border-radius);
+}
+      mark.orange{
+	background-color: var(--mark-orange);
+	color: var(--highlight-text-color);
+	text-decoration: var(--mark-decoration);
+	text-decoration-color: var(--mark-decoration-color);
+	text-decoration-thickness:  var(--mark-thickness);
+	text-decoration-skip-ink: none;
+	border-radius: var(--mark-border-radius);
+}
+      mark.purple{
+	background-color: var(--mark-purple);
+	color: var(--highlight-text-color);
+	text-decoration: var(--mark-decoration);
+	text-decoration-color: var(--mark-decoration-color);
+	text-decoration-thickness:  var(--mark-thickness);
+	text-decoration-skip-ink: none;
+	border-radius: var(--mark-border-radius);
+}
+
   `)
 
   logseq.Editor.registerSlashCommand("Yellow Highlighter", [
