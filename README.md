@@ -3,7 +3,7 @@ Add more colors for highlight in Logseq **using slash commands**
 
 **_You can find how to install the plugin at the end of the text._**
 
-**You can edit the color of the higlights, by adding and editing this variables[^1] in your own theme or your _custom.css_ inside the dark and light theme.**
+**You can edit the color of the higlights, by adding and editing this variables in your own theme or your _custom.css_ inside the dark and light theme.**
 ```css
 --mark-yellow: #xxxxx;
 --mark-pink: #xxxxx;
